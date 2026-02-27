@@ -45,14 +45,36 @@ const bg = "rgba(99,102,241,1)";
 새로운 axis / state / property를 임의로 만들지 않습니다.
 허용된 값은 `schema/component-schema.json`의 `vocabulary`, `stateMatrix`, `propertyAllowlist`를 따릅니다.
 
-### 3. 작업 후 반드시 lint 실행
+### 3. AI Self-Verification Loop (필수)
+
+작업 후 반드시 아래 명령으로 자기 검증을 실행합니다.
 
 ```bash
-npm run lint:tokens
+node scripts/ai-verify.mjs
 ```
 
-실패하면 에러 로그를 읽고 원인을 파악한 뒤 수정합니다.
-수정 후 다시 실행해서 통과를 확인합니다. **통과 전까지 작업 완료로 간주하지 않습니다.**
+출력이 `STATUS: READY` 가 될 때까지 다음 루프를 반복합니다.
+
+```
+① node scripts/ai-verify.mjs 실행
+② FAIL 이면 → 에러별 FIX 지침을 읽고 파일 수정
+③ 다시 ①로 돌아가 재실행
+④ STATUS: READY 확인 → 작업 완료
+```
+
+**READY 확인 전까지 작업 완료로 간주하지 않습니다.**
+
+#### 에러 유형별 수정 전략
+
+| 에러 코드 | 원인 | 수정 방법 |
+|-----------|------|-----------|
+| `[RAW]` | 하드코딩 색상 | primitive alias `{경로}`로 교체 |
+| `[REF]` | 깨진 참조 | 실제 존재하는 경로로 수정 |
+| `[POLICY]` | component→primitive 직참조 | semantic 경유 or `exceptionCategory` 추가 |
+| `[META]` | meta 필드 누락/오류 | `meta.layer`, `meta.policy` 추가 |
+| `[SCHEMA]` | 허용되지 않은 property/state | schema 기준으로 경로 수정 |
+| `[MATRIX]` | 필수 토큰 누락 | 해당 토큰 경로를 tokens 파일에 추가 |
+| `[TYPO]` | `.aplha.` 오타 | `.alpha.`로 수정 |
 
 ---
 

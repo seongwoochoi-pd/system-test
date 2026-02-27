@@ -146,6 +146,60 @@ function collectLeaves(node, path = []) {
   }
 }
 
+// ---- Matrix checks: 스키마에 정의된 모든 경로가 존재하는지 역방향 검증 ----
+function checkRequiredMatrix() {
+  const components = schema.components ?? {};
+
+  for (const [compName, compSpec] of Object.entries(components)) {
+    // 토큰이 아예 없는 컴포넌트는 skip (아직 작업 전)
+    const compNodeHit = getByPath(tokens, `color.component.${compName}`);
+    if (!compNodeHit.ok) continue;
+
+    const pathPattern = compSpec.tokenMap?.pathPattern;
+    if (!pathPattern) continue;
+
+    const variantVals = compSpec.axes?.variant?.values ?? [null];
+    const subpartVals = compSpec.axes?.subpart?.values ?? [null];
+
+    for (const variant of variantVals) {
+      for (const subpart of subpartVals) {
+        const subKey = subpart ?? "default";
+        const requiredStates =
+          compSpec.stateMatrix?.[subKey] ??
+          compSpec.stateMatrix?.default ??
+          [];
+        const requiredProps =
+          compSpec.propertyAllowlist?.[subKey] ??
+          compSpec.propertyAllowlist?.default ??
+          [];
+
+        for (const property of requiredProps) {
+          for (const state of requiredStates) {
+            let tokenPath = pathPattern
+              .replace("{variant}", variant ?? "")
+              .replace("{subpart}", subpart ?? "")
+              .replace("{property}", property)
+              .replace("{state}", state)
+              .replace(/\.{2,}/g, ".") // double-dot 제거
+              .replace(/^\.|\.$/, ""); // 앞뒤 dot 제거
+
+            const hit = getByPath(tokens, tokenPath);
+            if (!hit.ok || !isTokenLeaf(hit.value)) {
+              fail(
+                `[MATRIX] missing required token: ${tokenPath}` +
+                  ` (component=${compName}` +
+                  (variant ? `, variant=${variant}` : "") +
+                  (subpart ? `, subpart=${subpart}` : "") +
+                  `, property=${property}, state=${state})`
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // ---- Schema checks (component only) ----
 function checkComponentSchema() {
   const componentRoot = getByPath(tokens, "color.component");
@@ -228,6 +282,7 @@ function containsLeaf(node) {
 // Run
 collectLeaves(tokens);
 checkComponentSchema();
+checkRequiredMatrix();
 
 if (!ok) {
   console.error(`\n❌ Token lint failed (${errors.length})`);

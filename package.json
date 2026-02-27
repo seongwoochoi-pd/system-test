@@ -9,7 +9,10 @@
     "lint": "eslint",
     "lint:tokens": "node scripts/lint-tokens.mjs tokens/kiln.with_meta.json schema/component-schema.json",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "release": "node scripts/release.mjs",
+    "release:dry": "node scripts/release.mjs --dry-run",
+    "ai:verify": "node scripts/ai-verify.mjs"
   },
   "dependencies": {
     "next": "16.1.6",
