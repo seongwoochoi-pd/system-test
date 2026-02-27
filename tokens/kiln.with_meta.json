@@ -1,0 +1,2023 @@
+{
+  "color": {
+    "semantic": {
+      "foreground": {
+        "accent": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.indigo.500}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "foreground",
+              "role:accent"
+            ]
+          }
+        },
+        "default": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.slate.900}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.slate.400}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "foreground",
+                "role:default",
+                "tone:muted"
+              ]
+            }
+          },
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.slate.600}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "foreground",
+                "role:default",
+                "tone:strong"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "foreground",
+              "role:default"
+            ]
+          }
+        },
+        "inverse": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.white}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "foreground",
+              "role:inverse"
+            ]
+          }
+        },
+        "danger": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.red.500}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "foreground",
+              "role:danger"
+            ]
+          }
+        },
+        "attention": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.orange.500}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "foreground",
+              "role:attention"
+            ]
+          }
+        },
+        "success": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.green.500}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "foreground",
+              "role:success"
+            ]
+          }
+        }
+      },
+      "border": {
+        "danger": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.red.500}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.red.100}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "border",
+                "role:danger",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "border",
+              "role:danger"
+            ]
+          }
+        },
+        "accent": {
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.indigo.100}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "border",
+                "role:accent",
+                "tone:muted"
+              ]
+            }
+          },
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.indigo.500}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "border",
+              "role:accent"
+            ]
+          }
+        },
+        "default": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.slate.300}",
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.slate.500}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "border",
+                "role:default",
+                "tone:strong"
+              ]
+            }
+          },
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.slate.200}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "border",
+                "role:default",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "border",
+              "role:default"
+            ]
+          }
+        },
+        "attention": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.orange.500}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.orange.100}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "border",
+                "role:attention",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "border",
+              "role:attention"
+            ]
+          }
+        },
+        "success": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.green.500}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.green.100}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "border",
+                "role:success",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "border",
+              "role:success"
+            ]
+          }
+        }
+      },
+      "background": {
+        "danger": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.red.500}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.red.50}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "background",
+                "role:danger",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "background",
+              "role:danger"
+            ]
+          }
+        },
+        "attention": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.orange.500}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.orange.50}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "background",
+                "role:attention",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "background",
+              "role:attention"
+            ]
+          }
+        },
+        "success": {
+          "description": "",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.green.500}",
+          "muted": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.green.50}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "background",
+                "role:success",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "background",
+              "role:success"
+            ]
+          }
+        },
+        "default": {
+          "description": "기본 배경",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.white}",
+          "strong": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.slate.200}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "background",
+                "role:default",
+                "tone:strong"
+              ]
+            }
+          },
+          "muted": {
+            "description": "약한 배경(섹션/서브 영역)",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.slate.50}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "background",
+                "role:default",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "background",
+              "role:default"
+            ]
+          }
+        },
+        "inverse": {
+          "description": "반전 배경(다크)",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.slate.900}",
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "background",
+              "role:inverse"
+            ]
+          }
+        },
+        "accent": {
+          "description": "비활성 배경",
+          "type": "color",
+          "value": "{🔒primitive font&color.primitive.color.indigo.500}",
+          "muted": {
+            "description": "비활성 배경",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.indigo.50}",
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": false,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "background",
+                "role:accent",
+                "tone:muted"
+              ]
+            }
+          },
+          "meta": {
+            "layer": "semantic",
+            "policy": {
+              "directPrimitiveAllowed": false,
+              "allowRawValue": false,
+              "immutable": false
+            },
+            "owner": "design-system",
+            "tags": [
+              "semantic",
+              "background",
+              "role:accent"
+            ]
+          }
+        }
+      },
+      "overlay": {
+        "background": {
+          "default": {
+            "description": "",
+            "type": "color",
+            "value": "{🔒primitive font&color.primitive.color.alpha.black.a40}",
+            "muted": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.black.a24}",
+              "meta": {
+                "layer": "semantic",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "semantic",
+                  "overlay",
+                  "background",
+                  "tone:muted"
+                ],
+                "exceptionCategory": "overlay_alpha",
+                "reason": "overlay/alpha token (allowed exception category)"
+              }
+            },
+            "strong": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.black.a70}",
+              "meta": {
+                "layer": "semantic",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "semantic",
+                  "overlay",
+                  "background",
+                  "tone:strong"
+                ],
+                "exceptionCategory": "overlay_alpha",
+                "reason": "overlay/alpha token (allowed exception category)"
+              }
+            },
+            "meta": {
+              "layer": "semantic",
+              "policy": {
+                "directPrimitiveAllowed": true,
+                "allowRawValue": false,
+                "immutable": false
+              },
+              "owner": "design-system",
+              "tags": [
+                "semantic",
+                "overlay",
+                "background",
+                "tone:default"
+              ],
+              "exceptionCategory": "overlay_alpha",
+              "reason": "overlay/alpha token (allowed exception category)"
+            }
+          }
+        }
+      }
+    },
+    "component": {
+      "button": {
+        "primary": {
+          "foreground": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.inverse}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:foreground",
+                  "state:rest"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.slate.300}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:foreground",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.inverse}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:foreground",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.inverse}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:foreground",
+                  "state:active"
+                ]
+              }
+            }
+          },
+          "background": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.accent}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:background",
+                  "state:rest"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:background",
+                  "state:disabled"
+                ]
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.indigo.600}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:background",
+                  "state:hover"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.indigo.700}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:background",
+                  "state:active"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            }
+          },
+          "border": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:border",
+                  "state:rest"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:border",
+                  "state:hover"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:border",
+                  "state:active"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:primary",
+                  "property:border",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            }
+          }
+        },
+        "danger": {
+          "foreground": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.inverse}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:foreground",
+                  "state:rest"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.slate.300}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:foreground",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.inverse}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:foreground",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.inverse}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:foreground",
+                  "state:active"
+                ]
+              }
+            }
+          },
+          "background": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.danger}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:background",
+                  "state:rest"
+                ]
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.red.600}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:background",
+                  "state:hover"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.red.700}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:background",
+                  "state:active"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:background",
+                  "state:disabled"
+                ]
+              }
+            }
+          },
+          "border": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:border",
+                  "state:rest"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:border",
+                  "state:hover"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:border",
+                  "state:active"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:danger",
+                  "property:border",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "foreground": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:foreground",
+                  "state:rest"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.slate.300}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:foreground",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:foreground",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:foreground",
+                  "state:active"
+                ]
+              }
+            }
+          },
+          "background": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:background",
+                  "state:rest"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:background",
+                  "state:disabled"
+                ]
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.strong}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:background",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.strong}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:background",
+                  "state:active"
+                ]
+              }
+            }
+          },
+          "border": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.border.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:border",
+                  "state:rest"
+                ]
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.border.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:border",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.border.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:border",
+                  "state:active"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.border.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:secondary",
+                  "property:border",
+                  "state:disabled"
+                ]
+              }
+            }
+          }
+        },
+        "invisible": {
+          "foreground": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:foreground",
+                  "state:rest"
+                ]
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:foreground",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.foreground.default}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:foreground",
+                  "state:active"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.slate.300}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:foreground",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            }
+          },
+          "background": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:background",
+                  "state:rest"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:background",
+                  "state:hover"
+                ]
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{color.semantic.background.default.muted}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": false,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:background",
+                  "state:active"
+                ]
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:background",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            }
+          },
+          "border": {
+            "rest": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:border",
+                  "state:rest"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "hover": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:border",
+                  "state:hover"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "active": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:border",
+                  "state:active"
+                ],
+                "exceptionCategory": "fixed_color",
+                "reason": "explicit fixed color exception (not represented in semantic layer yet)"
+              }
+            },
+            "disabled": {
+              "description": "",
+              "type": "color",
+              "value": "{🔒primitive font&color.primitive.color.alpha.white.a00}",
+              "meta": {
+                "layer": "component",
+                "policy": {
+                  "directPrimitiveAllowed": true,
+                  "allowRawValue": false,
+                  "immutable": false
+                },
+                "owner": "design-system",
+                "tags": [
+                  "component",
+                  "button",
+                  "axis:invisible",
+                  "property:border",
+                  "state:disabled"
+                ],
+                "exceptionCategory": "disabled",
+                "reason": "disabled state exception (allowed per kiln guide)"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "🔒primitive font&color": {
+    "primitive": {
+      "color": {
+        "white": {
+          "type": "color",
+          "value": "#FFFFFF"
+        },
+        "black": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "slate": {
+          "50": {
+            "type": "color",
+            "value": "#F8FAFC"
+          },
+          "100": {
+            "type": "color",
+            "value": "#F1F5F9"
+          },
+          "200": {
+            "type": "color",
+            "value": "#E2E8F0"
+          },
+          "300": {
+            "type": "color",
+            "value": "#CBD5E1"
+          },
+          "400": {
+            "type": "color",
+            "value": "#94A3B8"
+          },
+          "500": {
+            "type": "color",
+            "value": "#64748B"
+          },
+          "600": {
+            "type": "color",
+            "value": "#475569"
+          },
+          "700": {
+            "type": "color",
+            "value": "#334155"
+          },
+          "800": {
+            "type": "color",
+            "value": "#1E293B"
+          },
+          "900": {
+            "type": "color",
+            "value": "#0F172A"
+          }
+        },
+        "indigo": {
+          "50": {
+            "type": "color",
+            "value": "#EEF2FF"
+          },
+          "100": {
+            "type": "color",
+            "value": "#E0E7FF"
+          },
+          "200": {
+            "type": "color",
+            "value": "#C7D2FE"
+          },
+          "300": {
+            "type": "color",
+            "value": "#A5B4FC"
+          },
+          "400": {
+            "type": "color",
+            "value": "#818CF8"
+          },
+          "500": {
+            "type": "color",
+            "value": "#6366F1"
+          },
+          "600": {
+            "type": "color",
+            "value": "#4F46E5"
+          },
+          "700": {
+            "type": "color",
+            "value": "#4338CA"
+          },
+          "800": {
+            "type": "color",
+            "value": "#3730A3"
+          },
+          "900": {
+            "type": "color",
+            "value": "#312E81"
+          }
+        },
+        "red": {
+          "50": {
+            "type": "color",
+            "value": "#FEF2F2"
+          },
+          "100": {
+            "type": "color",
+            "value": "#FEE2E2"
+          },
+          "200": {
+            "type": "color",
+            "value": "#FECACA"
+          },
+          "300": {
+            "type": "color",
+            "value": "#FCA5A5"
+          },
+          "400": {
+            "type": "color",
+            "value": "#F87171"
+          },
+          "500": {
+            "type": "color",
+            "value": "#EF4444"
+          },
+          "600": {
+            "type": "color",
+            "value": "#DC2626"
+          },
+          "700": {
+            "type": "color",
+            "value": "#B91C1C"
+          },
+          "800": {
+            "type": "color",
+            "value": "#991B1B"
+          },
+          "900": {
+            "type": "color",
+            "value": "#7F1D1D"
+          }
+        },
+        "orange": {
+          "50": {
+            "type": "color",
+            "value": "#FFF7ED"
+          },
+          "100": {
+            "type": "color",
+            "value": "#FFEDD5"
+          },
+          "200": {
+            "type": "color",
+            "value": "#FED7AA"
+          },
+          "300": {
+            "type": "color",
+            "value": "#FDBA74"
+          },
+          "400": {
+            "type": "color",
+            "value": "#FB923C"
+          },
+          "500": {
+            "type": "color",
+            "value": "#F97316"
+          },
+          "600": {
+            "type": "color",
+            "value": "#EA580C"
+          },
+          "700": {
+            "type": "color",
+            "value": "#C2410C"
+          },
+          "800": {
+            "type": "color",
+            "value": "#9A3412"
+          },
+          "900": {
+            "type": "color",
+            "value": "#7C2D12"
+          }
+        },
+        "green": {
+          "50": {
+            "type": "color",
+            "value": "#F0FDF4"
+          },
+          "100": {
+            "type": "color",
+            "value": "#DCFCE7"
+          },
+          "200": {
+            "type": "color",
+            "value": "#BBF7D0"
+          },
+          "300": {
+            "type": "color",
+            "value": "#86EFAC"
+          },
+          "400": {
+            "type": "color",
+            "value": "#4ADE80"
+          },
+          "500": {
+            "type": "color",
+            "value": "#22C55E"
+          },
+          "600": {
+            "type": "color",
+            "value": "#16A34A"
+          },
+          "700": {
+            "type": "color",
+            "value": "#15803D"
+          },
+          "800": {
+            "type": "color",
+            "value": "#166534"
+          },
+          "900": {
+            "type": "color",
+            "value": "#14532D"
+          }
+        },
+        "alpha": {
+          "black": {
+            "a10": {
+              "type": "color",
+              "value": "rgba(0,0,0,0.1)"
+            },
+            "a24": {
+              "type": "color",
+              "value": "rgba(0,0,0,0.24)"
+            },
+            "a40": {
+              "type": "color",
+              "value": "rgba(0,0,0,0.4)"
+            },
+            "a70": {
+              "type": "color",
+              "value": "rgba(0,0,0,0.7)"
+            }
+          },
+          "white": {
+            "a00": {
+              "type": "color",
+              "value": "rgba(255,255,255,0)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

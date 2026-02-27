@@ -1,0 +1,58 @@
+{
+  "$schema": "kiln/component-schema/v0.1",
+  "vocabulary": {
+    "properties": ["background", "border", "foreground"],
+    "states": ["rest", "hover", "active", "selected", "disabled", "checked"]
+  },
+  "components": {
+    "button": {
+      "axes": {
+        "variant": {
+          "type": "enum",
+          "values": ["primary", "secondary", "danger", "invisible"],
+          "required": true
+        }
+      },
+      "stateMatrix": {
+        "default": ["rest", "hover", "active", "disabled"]
+      },
+      "propertyAllowlist": {
+        "default": ["background", "border", "foreground"]
+      },
+      "tokenMap": {
+        "pathPattern": "color.component.button.{variant}.{property}.{state}"
+      }
+    },
+    "actionlist": {
+      "axes": {
+        "variant": {
+          "type": "enum",
+          "values": ["leaf", "parent"],
+          "required": true
+        },
+        "subpart": {
+          "type": "enum",
+          "values": ["item", "label", "icon", "meta", "indicator"],
+          "required": true
+        }
+      },
+      "stateMatrix": {
+        "item": ["rest", "hover", "selected", "disabled"],
+        "label": ["rest", "hover", "selected", "disabled"],
+        "icon": ["rest", "hover", "selected", "disabled"],
+        "meta": ["rest", "hover", "selected", "disabled"],
+        "indicator": ["selected", "disabled"]
+      },
+      "propertyAllowlist": {
+        "item": ["background", "border"],
+        "label": ["foreground"],
+        "icon": ["foreground"],
+        "meta": ["foreground"],
+        "indicator": ["foreground"]
+      },
+      "tokenMap": {
+        "pathPattern": "color.component.actionlist.{variant}.{subpart}.{property}.{state}"
+      }
+    }
+  }
+}

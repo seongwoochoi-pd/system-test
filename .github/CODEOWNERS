@@ -1,0 +1,7 @@
+# AI가 수정 금지. PR merge 시 오너 승인 필수.
+# GitHub → Settings → Branches → "Require review from Code Owners" 활성화 필요.
+
+/tokens/          @design-system-owners
+/schema/          @design-system-owners
+/src/components/  @design-system-owners
+/scripts/         @design-system-owners
